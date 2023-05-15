@@ -68,27 +68,38 @@
     width: 450px;
     text-align: right;
     color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
-.contain-header__texto input {
+.contain-header__texto a {
+    font-size: 0.9rem;
     color: #fff;
-    padding: 8px;
-    margin-left: 5px;
-    border: 1px solid rgb(255, 255, 255, .5);
+    padding: 10px;
     border-radius: 5px;
-    background-color: transparent;
+    text-decoration: none;
 }
-.contain-header__texto input:hover {
+.contain-header__texto-a1 {
+    margin-right: 10px;
+    border: 1px solid rgba(255, 255, 255, .5);
+}
+.contain-header__texto-a1:hover {
     background-color: #2aaf2a;
+}
+.contain-header__texto-a2 {
+    background-color: #2aaf2a;
+}
+.contain-header__texto-a2:hover {
+    background-color: #1f931f;
 }
 .section-oradores-p, .section-oradores-h2 {
     text-align: center;
     margin: 5px;
+    margin-bottom: 20px;
 }
 .section-oradores__contain-div {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .section-oradores__contain-div-item {
     width: 300px;
@@ -97,9 +108,31 @@
     margin-bottom: 30px;
     border: 1px solid rgba(150, 150, 150, .3);
 }
+.section-oradores__contain-div-item {
+    height: 100%;
+}
+.section-oradores__contain-div-item div {
+    width: 90%;
+    margin: 0 auto;
+}
 .section-oradores__contain-div-item img {
     width: 300px;
     height: 300px;
+    margin-bottom: 20px;
+}
+.section-oradores__contain-div-item-p1 {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #efcb18;
+}
+.section-oradores__contain-div-item-p2 {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #ff0000;
 }
 .section-img {
     width: 100%;
@@ -136,23 +169,28 @@
     resize: none;
 }
 .--btn-enviar{
+    color: #fff;
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #82c417;
+    background-color: #90d53b;
     border-radius: 5px;
     margin-bottom: 15px;
 }
+.--btn-enviar:hover {
+    background-color: #77b415;
+}
 .contain-footer {
     width: 100%;
-    height: 50px;
     background-color: #4b7a82;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 .contain-footer a {
     text-decoration: none;
-    margin: 0 30px;
+    margin: 30px;
     color: #fff;
+
 }
