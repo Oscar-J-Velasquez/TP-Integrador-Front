@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.contain-header {
+    width: 100%;
+    height: 640px;
+    background-image: none;
+}
+.contain-header__nav {
+    height: 70px;
+    background-color: #424141;
+    display: flex;
+    justify-content: space-between;
+}
+.contain-header__nav__div-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.contain-header__nav__div-logo h2 {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.contain-header__nav__div-logo img {
+    width: 100px;
+    height: 50px;
+}
+.contain-header__nav__ul {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.contain-header__nav__ul-li {
+    list-style: none;
+}
+.contain-header__nav__ul-li a {
+    text-decoration: none;
+    color: #9a9696;
+    margin-left: 15px;
+}
+.--li a{
+    color: #2aaf2a;
+}
+.contain-header__nav__ul-li a:hover {
+    color: #fff;
+}
+.contain-header__texto {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 250px;
+    padding-right: 120px;
+}
+.contain-header__texto h1 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+.contain-header__texto p {
+    width: 450px;
+    text-align: right;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.contain-header__texto a {
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.contain-header__texto-a1 {
+    margin-right: 10px;
+    border: 1px solid rgba(255, 255, 255, .5);
+}
+.contain-header__texto-a1:hover {
+    background-color: #2aaf2a;
+}
+.contain-header__texto-a2 {
+    background-color: #2aaf2a;
+}
+.contain-header__texto-a2:hover {
+    background-color: #1f931f;
+}
+
+/*CUERPO*/
+.contain-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.contain-section__caja {
+    width: 200px;
+    height: 200px;
+}
+.contain-section__caja__div-texto {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contain-section__caja h3, p {
+    text-align: center;
+}
+.caja1 {
+    border: 1px solid blue;
+    margin: 0 5px;
+}
+.caja2 {
+    border: 1px solid #006fff;
+    margin: 0 5px;
+}
+.caja3 {
+    border: 1px solid #c6da16;
+    margin: 0 5px;
+}
+/*TITULOS*/
+.div-titulos {
+    margin: 10px 0;
+    text-align: center;
+}
+/*FORMULARIO*/
+.section-formulario {
+    width: 620px;
+    margin: 0 auto;
+}
+.section-formulario__div {
+    display: flex;
+    justify-content: space-between;
+}
+.section-formulario__div-input {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.section-formulario_input-- {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.section-formulario__div-button {
+    display: flex;
+    justify-content: space-between;
+}
+.section-formulario__div-button button {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #a9e259;
+}
+.section-formulario h3 {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #8bb4eb;
+}
+
+/*PIE DE PAGINA*/
+.contain-footer {
+    width: 100%;
+    background-color: #4b7a82;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contain-footer a {
+    text-decoration: none;
+    margin: 30px;
+    color: #fff;
+
+}
