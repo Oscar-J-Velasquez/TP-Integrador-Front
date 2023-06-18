@@ -133,7 +133,7 @@
     display: flex;
     justify-content: space-between;
 }
-.section-formulario__div-input {
+.section-formulario__div-input, .section-formulario__div-select {
     width: 48%;
     padding: 10px;
     margin-bottom: 10px;

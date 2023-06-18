@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="tickets.css">
-    <script src="tickets.js"></script>
+    
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"> 
 </head>
 <body>
@@ -56,24 +56,27 @@
             <h3>VENTA</h3>
             <h2>VALOR DE TICKET $200</h2>
         </div>
-        <section class="section-formulario">
+        <form id="formulario" class="section-formulario">
             <div class="section-formulario__div">
                 <input class="section-formulario__div-input" type="text" placeholder="Nombre">
                 <input class="section-formulario__div-input" type="text" placeholder="Apellido">
             </div>
             <input class="section-formulario_input--" type="text" placeholder="Correo">
             <div class="section-formulario__div">
-                <input class="section-formulario__div-input" type="text" placeholder="Cantidad">
-                <input class="section-formulario__div-input" type="text" placeholder="Estudiante">
+                <input id="cantidad" class="section-formulario__div-input" type="text" placeholder="Cantidad" required>
+                <select id="categoria" class="section-formulario__div-select" name="" required>
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Trainee">Trainee</option>
+                    <option value="Junior">Junior</option>
+                </select>
             </div>
-            <h3>Total a pagar: $</h3>
+            <div id="mostrarResultado"></div>
             <div class="section-formulario__div-button">
-                <button>Borrar</button>
-                <button>Resumen</button>
+                <button id="borrar">Borrar</button>
+                <button id="resumen">Resumen</button>
             </div>
             
-        </section>
-        
+        </form>
     <footer class="contain-footer">
         <a href="">Preguntas <br>frecuentes</a>
         <a href="">Contáctanos</a>
@@ -83,5 +86,6 @@
         <a href="">Privacidad</a>
         <a href="">Estudiantes</a>
     </footer>
+    <script defer src="tickets.js"></script>
 </body>
 </html>
