@@ -33,6 +33,7 @@
     display: flex;
     justify-content: end;
     align-items: center;
+    margin-right: 20px;
 }
 .contain-header__nav__ul-li {
     list-style: none;
